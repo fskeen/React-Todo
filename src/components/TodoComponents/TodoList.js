@@ -4,10 +4,13 @@ import React from 'react'
 
 import TodoItem from './TodoItem'
 
-function TodoList ({list}) {
+function TodoList ({list, markComplete}) {
     return (
         <ul>
-            {list.map(item => <TodoItem item={item} key={item.id}/>)}
+            {list.map(item => <TodoItem
+                                item={item}
+                                key={item.id}
+                                markComplete={markComplete}/>)}
         </ul>
     )
 }

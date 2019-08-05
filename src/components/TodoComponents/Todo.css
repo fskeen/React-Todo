@@ -3,12 +3,28 @@ h5 {
     border-radius: .5rem;
     padding: .5rem 1rem;
     display: inline-block;
-    margin: .2rem;
+    margin: .5rem;
     background-color: rgb(223, 241, 236);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
     color: rgb(10, 98, 64);
     font-weight: 400;
+    box-shadow: 2px 2px 5px rgb(106, 200, 147);
+    
+}
+
+h5:hover {
+    transform: scale(1.1);  
+    background-color: hotpink;
+    color: black;
+    border-color: deeppink;
+    box-shadow: darkorchid;
+}
+h5:active {
+    color: yellow;
+    border-color: yellow;
+    box-shadow: darkorange; 
+
 }
 
 li {
@@ -18,4 +34,18 @@ li {
 
 ul {
     padding: 0;
+}
+
+.completed {
+    color: gray;
+    background-color: whitesmoke;
+    border: 2px solid lightgray;
+    box-shadow: none;
+}
+
+.completed:hover {
+    transform: none;
+    background-color: whitesmoke;
+    color: gray;
+    border-color: lightgray;
 }

@@ -1,9 +1,12 @@
 import React from 'react';
 
-function TodoItem ({item}) {
+function TodoItem ({item, markComplete}) {
     return (
         <li>
-            <h5>{item.task}</h5>
+            <h5 
+                onClick={() => markComplete(item.id)}
+                className={item.completed ? 'completed' : ''}
+                >{item.task}</h5>
         </li>
     )
 }
