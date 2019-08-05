@@ -1,0 +1,21 @@
+h5 {
+    border: 2px solid seagreen;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    display: inline-block;
+    margin: .2rem;
+    background-color: rgb(223, 241, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: rgb(10, 98, 64);
+    font-weight: 400;
+}
+
+li {
+    list-style: none;
+    
+}
+
+ul {
+    padding: 0;
+}
